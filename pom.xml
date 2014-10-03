@@ -33,7 +33,7 @@
 				<version>2.2</version>
 				<configuration>
 					<port>8080</port>
-					<path>/boundary</path>
+					<path>/</path>
 				</configuration>
 			</plugin>
 		</plugins>
