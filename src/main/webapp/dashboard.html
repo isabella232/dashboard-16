@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ajax Form</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(function() {
+
+    $( "#accordion" ).accordion({
+        collapsible: true
+    });
+
+  });
+});
+</script>
+</head>
+<body>
+<p><a href="index.php">Home</a></p>
+<h1>Accordian</h1>
+<div id="accordion">
+    <h3>Jabber Farm</h3>
+    <div>
+        <p>Jabber #1</p>
+        <p>Jabber #2</p>
+    </div>
+    <h3>Java Servers</h3>
+    <div>
+        <p>Java Server #1</p>
+        <p>Java Server #2</p>
+    </div>
+    <h3>MySQL Servers</h3>
+    <div>
+        <p>MySQL #1</p>
+        <p>MySQL #2</p>
+    </div>
+    <h3></h3>
+    <h3>Web Servers</h3>
+    <div>
+        <p>Web #1</p>
+        <p>Web #2</p>
+    </div>
+</div>
+</body>
+</html>
