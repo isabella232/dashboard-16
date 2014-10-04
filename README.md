@@ -27,12 +27,14 @@ Prerequisites
 The code consists of HTML5/CSS and default bahavior provided by Javascript. [Blocks](http://demo.bootstraptor.com/blocks.html) templates are used for the dashboard layout
 
 1. The landing page for the dashboard is `index.html` located at `src/main/webapp/index.html`.
-2. There are four child pages that are used for the detailed dashboards for each of the respective groups of servers:
+2. The `assets` directory contains all of the css, images, and javascript.
+3. There are four child pages that are used for the detailed dashboards for each of the respective groups of servers:
 
 * `jabber-servers.html`
 * `java-servers.html`
 * `mysql-servers.html`
 * `web-servers.html`
+
 
 
 
