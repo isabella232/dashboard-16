@@ -55,6 +55,21 @@ $(document).ready(function () {
       $('#clientCarousel').carousel('prev')
     });
     
+    // Configure the dashboard
+    
+    $.getJSON("config/data.json",function(data) {
+    	  var items = [];
+    	  $.each(data,function(key,val) {
+    	    items.push( "<li id='" + key + "'>" + val + "</li>" );
+    	    console.log(val)
+    	  });
+    	 
+    	  $( "<ul/>", {
+    	    "class": "my-new-list",
+    	    html: items.join( "" )
+    	  }).appendTo( "body" );
+    	});
+    
 });
 
  $(window).load(function(){
@@ -100,7 +115,7 @@ $(document).ready(function () {
 	<div class="container">
 		<!-- FIRST ROW OF BLOCKS -->
 		<div class="row">
-			<div class="col-sm-6 col-lg-6">
+			<div id="panel-1" class="col-sm-6 col-lg-6">
 				<div class="dash-unit">
 					<dtitle>Jabber Servers</dtitle>
 					<hr>
@@ -109,7 +124,7 @@ $(document).ready(function () {
 						src="https://premium.boundary.com/embed/e.67e9eb2f6a?d-w=3&d-h=2&d-pad=0&d-header=0&d-slider=0&d-legend=1&d-bg=3D3D3D&d-g-MYSQL_BYTES_IN=0-0-1-1-t&d-g-MYSQL_BYTES_OUT=0-0-1-1-b&d-sg-cpu=0-1-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=2-1-1-1-t&d-sg-hdw=2-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-g-MYSQL_CONNECTIONS=2-0-1-1-t&d-g-MYSQL_COMMITS=2-0-1-1-b#null"></iframe>
 				</div>
 			</div>
-			<div class="col-sm-6 col-lg-6">
+			<div id="panel-2" class="col-sm-6 col-lg-6">
 				<div class="dash-unit">
 					<dtitle>Java Servers</dtitle>
 					<hr>
@@ -121,7 +136,7 @@ $(document).ready(function () {
 		</div>
         <!-- SECOND ROW OF BLOCKS -->
 		<div class="row">
-			<div class="col-sm-6 col-lg-6">
+			<div id="panel-3" class="col-sm-6 col-lg-6">
 				<div class="dash-unit">
 					<dtitle>MySQL Servers</dtitle>
 					<hr>
@@ -130,7 +145,7 @@ $(document).ready(function () {
 						src="https://premium.boundary.com/embed/e.67e9eb2f6a?d-w=1&d-h=1&d-pad=0&d-header=0&d-slider=0&d-legend=1&d-bg=3D3D3D&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"></iframe>
 				</div>
 			</div>
-			<div class="col-sm-6 col-lg-6">
+			<div id="panel-4" class="col-sm-6 col-lg-6">
 				<div class="dash-unit">
 					<dtitle>Web Servers</dtitle>
 					<hr>
@@ -140,12 +155,8 @@ $(document).ready(function () {
 				</div>
 			</div>
 		</div>
-
 	</div>
 	<!-- /container -->
-
-
-
 	<!-- Le javascript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
