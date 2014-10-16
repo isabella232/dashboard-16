@@ -106,7 +106,6 @@
 				"dtitle": "Disk",
 				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
 			}
-			
 		]
 	},
 	"web-servers": {
@@ -133,7 +132,6 @@
 				"dtitle": "Disk",
 				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
 			}
-			
 		]
 	}
 }
