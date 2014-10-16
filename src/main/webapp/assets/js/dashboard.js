@@ -7,6 +7,8 @@ function configureDashboard() {
 		// Use the id attribute of the html tag to lookup our page object
 		// associated with this page
 		page = data[$("html").attr("id")];
+		
+		$("title").text(page.title)
 
 		// We do not find the page then there is nothing to do
 		if (page != null) {
