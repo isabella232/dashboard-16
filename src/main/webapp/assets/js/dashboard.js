@@ -3,7 +3,7 @@
  */
 function configureDashboard() {
 
-	$.getJSON("config/dashboard.json", function(data) {
+	$.getJSON("dashboard.json", function(data) {
 		// Use the id attribute of the html tag to lookup our page object
 		// associated with this page
 		page = data[$("html").attr("id")];
