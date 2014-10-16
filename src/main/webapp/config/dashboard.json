@@ -7,39 +7,133 @@
 		[
 			{
 				"id": "#panel-1",
-				"dtitle": "BLAH",
+				"dtitle": "Jabba Servers",
 				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=2&d-h=2&d-pad=0&d-header=0&d-slider=0&d-legend=1&d-bg=3D3D3D&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-0-1-1-t&d-sg-hdwb=1-0-1-1-b&d-sg-reqresptime=0-1-1-1&d-sg-reqcount=1-1-1-1#"
 			},
-
 			{
 				"id": "#panel-2",
-				"dtitle": "Red",
+				"dtitle": "Java Servers",
 				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
 			},
-
 			{
 				"id": "#panel-3",
-				"dtitle": "Green",
+				"dtitle": "MySQL Servers",
 				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
 			},
-
 			{
 				"id": "#panel-4",
-				"dtitle": "Blue",
+				"dtitle": "Web Servers",
 				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
 			}
 		]
 	},
 
-	"jabber": {
-		"id": "jabba-servers",
+	"jabber-servers": {
 		"title": "Cisco TV - Monitoring Dashboards",
 		"panels": 
 		[
 			{
-				"id": "panel-1",
-				"dtitle": "Java Servers"
+				"id": "#panel-1",
+				"dtitle": "Availability",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-2",
+				"dtitle": "CPU",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-3",
+				"dtitle": "Memory",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-4",
+				"dtitle": "Disk",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
 			}
+			
+		]
+	},
+	"java-servers": {
+		"title": "Cisco TV - Monitoring Dashboards",
+		"panels": 
+		[
+			{
+				"id": "#panel-1",
+				"dtitle": "Availability",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-2",
+				"dtitle": "CPU",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-3",
+				"dtitle": "Memory",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-4",
+				"dtitle": "Disk",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			}
+			
+		]
+	},
+	"mysql-servers": {
+		"title": "Cisco TV - Monitoring Dashboards",
+		"panels": 
+		[
+			{
+				"id": "#panel-1",
+				"dtitle": "Availability",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-2",
+				"dtitle": "CPU",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-3",
+				"dtitle": "Memory",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-4",
+				"dtitle": "Disk",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			}
+			
+		]
+	},
+	"web-servers": {
+		"title": "Cisco TV - Monitoring Dashboards",
+		"panels": 
+		[
+			{
+				"id": "#panel-1",
+				"dtitle": "Availability",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-2",
+				"dtitle": "CPU",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-3",
+				"dtitle": "Memory",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			},
+			{
+				"id": "#panel-4",
+				"dtitle": "Disk",
+				"src": "https://premium.boundary.com/embed/e.345071c180?d-w=3&d-h=2&d-pad=5&d-header=0&d-slider=0&d-bg=000000&d-sg-cpu=0-0-1-1&d-sg-hdrb=1-1-1-1-t&d-sg-hdwb=1-1-1-1-b&d-sg-hdr=0-1-1-1-t&d-sg-hdw=0-1-1-1-b&d-sg-ni=1-0-1-1-t&d-sg-no=1-0-1-1-b&d-sg-mem=2-0-1-1&d-sg-reqresptime=2-1-1-1#null"
+			}
+			
 		]
 	}
 }
