@@ -2,82 +2,81 @@
 	"home": 
 	{
 		"id": "home",
-		"title": "Cisco TV - Overview",
+		"title": "TrueSight Pulse - Overview",
 		"panels": 
 		[
 			{
 				"id": "#panel-1",
-				"dtitle": "Jabber Servers - Availablity",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=tigase2-prod.cisco-tv.com&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-slider=0&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"dtitle": "Web Servers- Availablity",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-sg-cpu=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-2",
 				"dtitle": "Java Servers - Availablity",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-tomcat-prod-1&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-slider=0&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-g-HTTP_RESPONSETIME=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-3",
-				"dtitle": "MySQL Servers - Availablity",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=mysql-prod-11.cisco-tv.com&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-g-HTTP_RESPONSETIME=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-4",
-				"dtitle": "Web Servers - Availablity",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=104.130.177.65&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-sg-mem=0-0-1-1#null"
 			}
 		]
 	},
 
-	"jabber-servers": {
-		"title": "Cisco TV - Jabber Servers",
+	"web-servers": {
+		"title": "TrueSight Pulse - Web Servers",
 		"panels": 
 		[
 			{
 				"id": "#panel-1",
-				"dtitle": "Jabber Servers - Availability",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=tigase2-prod.cisco-tv.com&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-slider=0&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"dtitle": "Web Servers- Availablity",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-sg-cpu=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-2",
-				"dtitle": "Jabber Servers - CPU",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=tigase2-prod.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-cpu=0-0-1-1#null" 
+				"dtitle": "Java Servers - Availablity",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-g-HTTP_RESPONSETIME=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-3",
-				"dtitle": "Jabber Servers - Memory",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=tigase2-prod.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-mem=0-0-1-1#null" 
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-g-HTTP_RESPONSETIME=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-4",
-				"dtitle": "Jabber Servers - Disk",
-                                "src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=tigase2-prod.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=2&d-h=1&d-pad=0&d-bg=000000&d-sg-hdrb=0-0-1-1-t&d-sg-hdwb=0-0-1-1-b&d-sg-hdr=1-0-1-1-t&d-sg-hdw=1-0-1-1-b#null"
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-sg-mem=0-0-1-1#null"
 			}
-			
 		]
 	},
-	"java-servers": {
-		"title": "Cisco TV - Java Servers",
+	"database-servers": {
+		"title": "TrueSight Pulse - Database Servers",
 		"panels": 
 		[
 			{
 				"id": "#panel-1",
-				"dtitle": "Java Servers -Availability",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-tomcat-prod-1&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-slider=0&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-sg-cpu=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-2",
-				"dtitle": "Java Servers - CPU",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-tomcat-prod-1&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-cpu=0-0-1-1#null" 
+				"dtitle": "Java Servers - Availablity",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-g-HTTP_RESPONSETIME=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-3",
-				"dtitle": "Java Servers - Memory",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-tomcat-prod-1&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-mem=0-0-1-1#null" 
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-g-HTTP_RESPONSETIME=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-4",
-				"dtitle": "Java Servers - Disk",
-                                "src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-tomcat-prod-1&exc=1&d-header=0&d-legend=1&d-w=2&d-h=1&d-pad=0&d-bg=000000&d-sg-hdrb=0-0-1-1-t&d-sg-hdwb=0-0-1-1-b&d-sg-hdr=1-0-1-1-t&d-sg-hdw=1-0-1-1-b#null"
+				"dtitle": "",
+				"src": "https://pulse.truesight.bmc.com/embed/<embedded_token>?d-w=1&d-h=1&d-pad=5&d-header=0&d-slider=0&d-legend=0&d-light=0&d-bg=000000&d-sg-mem=0-0-1-1#null"
 			}
 			
 		]
@@ -89,22 +88,22 @@
 			{
 				"id": "#panel-1",
 				"dtitle": "MySQL - Availability",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=mysql-prod-11.cisco-tv.com&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"src": "https://premium.boundary.com/embed/<embedded_token>?filter=mysql-prod-11.cisco-tv.com&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-2",
 				"dtitle": "MySQL - CPU",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=mysql-prod-11.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-cpu=0-0-1-1#null" 
+				"src": "https://premium.boundary.com/embed/<embedded_token>?filter=mysql-prod-11.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-cpu=0-0-1-1#null" 
 			},
 			{
 				"id": "#panel-3",
 				"dtitle": "MySQL - Memory",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=mysql-prod-11.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-mem=0-0-1-1#null" 
+				"src": "https://premium.boundary.com/embed/<embedded_token>?filter=mysql-prod-11.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-mem=0-0-1-1#null" 
 			},
 			{
 				"id": "#panel-4",
 				"dtitle": "MySQL - Disk",
-                                "src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=mysql-prod-11.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=2&d-h=1&d-pad=0&d-bg=000000&d-sg-hdrb=0-0-1-1-t&d-sg-hdwb=0-0-1-1-b&d-sg-hdr=1-0-1-1-t&d-sg-hdw=1-0-1-1-b#null"
+                                "src": "https://premium.boundary.com/embed/<embedded_token>?filter=mysql-prod-11.cisco-tv.com&exc=1&d-header=0&d-legend=1&d-w=2&d-h=1&d-pad=0&d-bg=000000&d-sg-hdrb=0-0-1-1-t&d-sg-hdwb=0-0-1-1-b&d-sg-hdr=1-0-1-1-t&d-sg-hdw=1-0-1-1-b#null"
 			}
 		]
 	},
@@ -115,22 +114,22 @@
 			{
 				"id": "#panel-1",
 				"dtitle": "Web Servers - Availability",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=104.130.177.65&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
+				"src": "https://premium.boundary.com/embed/<embedded_token>?filter=104.130.177.65&exc=1&d-w=1&d-h=1&d-pad=0&d-header=0&d-legend=1&d-bg=000000&d-g-BOUNDARY_PORT_AVAILABILITY=0-0-1-1#null"
 			},
 			{
 				"id": "#panel-2",
 				"dtitle": "Web Servers - CPU",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-nginx-prod-2&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-cpu=0-0-1-1#null" 
+				"src": "https://premium.boundary.com/embed/<embedded_token>?filter=ctv-nginx-prod-2&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-cpu=0-0-1-1#null" 
 			},
 			{
 				"id": "#panel-3",
 				"dtitle": "Web Servers - Memory",
-				"src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-nginx-prod-2&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-mem=0-0-1-1#null" 
+				"src": "https://premium.boundary.com/embed/<embedded_token>?filter=ctv-nginx-prod-2&exc=1&d-header=0&d-legend=1&d-w=1&d-h=1&d-pad=0&d-bg=000000&d-sg-mem=0-0-1-1#null" 
 			},
 			{
 				"id": "#panel-4",
 				"dtitle": "Web Servers - Disk",
-                                "src": "https://premium.boundary.com/embed/e.67e9eb2f6a?filter=ctv-nginx-prod-2&exc=1&d-header=0&d-legend=1&d-w=2&d-h=1&d-pad=0&d-bg=000000&d-sg-hdrb=0-0-1-1-t&d-sg-hdwb=0-0-1-1-b&d-sg-hdr=1-0-1-1-t&d-sg-hdw=1-0-1-1-b#null"
+                                "src": "https://premium.boundary.com/embed/<embedded_token>?filter=ctv-nginx-prod-2&exc=1&d-header=0&d-legend=1&d-w=2&d-h=1&d-pad=0&d-bg=000000&d-sg-hdrb=0-0-1-1-t&d-sg-hdwb=0-0-1-1-b&d-sg-hdr=1-0-1-1-t&d-sg-hdw=1-0-1-1-b#null"
 			}
 		]
 	}

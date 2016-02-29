@@ -8,6 +8,11 @@ Prerequisites
 * Maven 3.2.1 or later
 
 
+### Configuring
+
+To the example you need to provide the embedded URL from your account in `dashboards.json`.
+
+
 ### Running Locally
 
 1. Peform a clean build and install. NOTE: The first time this is run maven will download any needed dependencies
@@ -30,9 +35,8 @@ The code consists of HTML5/CSS and default bahavior provided by Javascript. [Blo
 2. The `assets` directory contains all of the css, images, and javascript.
 3. There are four child pages that are used for the detailed dashboards for each of the respective groups of servers:
 
-* `jabber-servers.html`
-* `java-servers.html`
-* `mysql-servers.html`
+* `index.html`
+* `database-servers.html`
 * `web-servers.html`
 
 

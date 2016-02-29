@@ -5,3 +5,7 @@
   border-style:none;
   display:block;
 }
+
+img {
+  overflow:hidden;
+}
