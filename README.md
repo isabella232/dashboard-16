@@ -1,0 +1,2 @@
+# dashboard
+Configurable dashboard application
