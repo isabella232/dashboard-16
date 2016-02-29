@@ -1,20 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.cisco.dashboards</groupId>
-    <artifactId>boundary-dashboards</artifactId>
-    <version>0.01.0</version>
-    <name>Boundary Dashboards</name>
+    <groupId>com.bmc.truesight.pulse.dashboards</groupId>
+    <artifactId>pulse-dashboards</artifactId>
+    <version>0.2.0</version>
+    <name>TrueSight Pulse Dashboards</name>
     <url>http://www.boundary.com/</url>
     <packaging>war</packaging>
     <organization>
-        <name>Boundary, Inc.</name>
-        <url>http://www.boundary.com/</url>
+        <name>BMC Software, Inc.</name>
+        <url>http://www.bmc.com/</url>
     </organization>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.finalName>boundary</project.build.finalName>
+        <project.build.finalName>tsp-dashboards</project.build.finalName>
     </properties>
 
     <build>
