@@ -1,5 +1,5 @@
-Cisco Pilot Dashboard
-=====================
+Configurable dashboard application
+==================================
 
 Repository for artifacts for the Cisco pilot
 
@@ -48,3 +48,4 @@ The code consists of HTML5/CSS and default bahavior provided by Javascript. [Blo
 * [Maven Tomcat Plugin](http://tomcat.apache.org/maven-plugin.html)
 * [Bootstrap](http://getbootstrap.com/)
 * [Blocks](http://demo.bootstraptor.com/blocks.html)
+=======
